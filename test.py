@@ -1,3 +1,4 @@
+
 class P:
     def __init__(self, x):
         self.lac = x
@@ -15,13 +16,4 @@ class P:
 
 
 p1 = P(1001)
-
-
-class Lac:
-    def __init__(self, lol):
-        self.lol = lol
-
-x = Lac(2).lol
-
-print(x)
 
