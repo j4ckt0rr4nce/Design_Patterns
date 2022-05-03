@@ -1,3 +1,5 @@
+import datetime
+
 
 class P:
     def __init__(self, x):
@@ -16,4 +18,5 @@ class P:
 
 
 p1 = P(1001)
+print(p1.x)
 

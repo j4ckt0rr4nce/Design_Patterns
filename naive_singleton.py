@@ -14,10 +14,6 @@ class Singleton(metaclass=SingletonMeta):
         Finally, any singleton should define some business logic, which can be
         executed on its instance.
         """
-
-        # ...
-
-
 if __name__ == "__main__":
     s1 = Singleton()
     s2 = Singleton()
